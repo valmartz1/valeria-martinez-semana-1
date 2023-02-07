@@ -1,0 +1,98 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(225, 229, 235);
+    list-style-type: none;
+   
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 20pt;
+
+}
+
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    
+}
+
+.headerr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.behancefont {
+    font-size: 20pt;
+    padding: 5px;
+}
+
+.liheader {  
+    font-size: 15pt;
+    padding: 5px;
+}
+
+.sectionul {
+    display:flex; 
+    flex-direction: row;
+}
+
+.add{
+    background-color:blue;
+    border-radius: 250px;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+
+}
+.hola{
+    background-color:rgb(131, 131, 128);
+    border-radius: 250px;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+
+.mainnav{
+    display:flex; 
+    flex-direction: row;
+}
+
+.linavi{
+    font-size: 15pt;
+    padding: 10px;
+}
+
+.articlesnav{
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.articleFirst{
+    margin: 7px;
+    background-color:blue;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+}
+
+.theFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.FooterList {
+    font-size: 10pt;
+    padding: 5px;
+}
+
+.FooterListTwo {
+    font-size: 10pt;
+    padding: 5px;
+}
