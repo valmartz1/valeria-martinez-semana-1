@@ -17,6 +17,10 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: right;
+    color: #a6a5a5;
+    border-radius: 30px;
+    padding: 10px 24px;
+    /* border: 2px solid #a6a5a5; */
     
 }
 
@@ -24,12 +28,24 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .behancefont {
-    font-size: 20pt;
-    padding: 5px;
+    /*font-size: 20pt;*/
+    /*padding: 5px;*/
+    width: 80px;
+    height: 15px;
+    margin: 7px;
 }
+
+.adobefont {
+    /*font-size: 20pt;*/
+    /*padding: 5px;*/
+    width: 50px;    
+    margin: 7px;
+}
+
 
 .liheader {  
     font-size: 15pt;
@@ -39,6 +55,7 @@ h1 {
 .sectionul {
     display:flex; 
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .add{
@@ -49,7 +66,7 @@ h1 {
     margin: 20px;
 
 }
-.hola{
+.peoplesection{
     background-color:rgb(131, 131, 128);
     border-radius: 250px;
     width: 70px;
@@ -75,7 +92,7 @@ h1 {
 
 .articleFirst{
     margin: 7px;
-    background-color:blue;
+    /*background-color:blue;*/
     border-radius: 5px;
     width: 300px;
     height: 200px;
@@ -95,4 +112,35 @@ h1 {
 .FooterListTwo {
     font-size: 10pt;
     padding: 5px;
+}
+
+.buttonn {
+    
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    color: black;
+    border-radius: 30px;
+    padding: 10px 24px;
+    border: 2px solid #a6a5a5; /* Green */
+    
+}
+
+.moreicons {
+    display:flex; 
+    flex-direction: row;
+}
+
+.pic{
+    /*background-color:blue;*/
+    border-radius: 250px;
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+
+.adobe{
+font-size: 15pt;
+padding: 5px;
 }
